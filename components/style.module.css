@@ -26,15 +26,32 @@
   color: #ff8506;
   background-color: #021233;
 }
+  
+  .logo img {
+    width: 200px;
+    border-radius: 20px;
+  }
 
+  .profilePicture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
 
-.counter {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 2px 6px;
-  margin: 12px 0 0;
-}
+  .containerCards{
+    gap: .8rem;
+    border: solid 20px transparent;
+    margin: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+  }
 
+  .containerCards img:hover{
+    transform: scale(1.05);
+    transition: .7s;
+  }
 
 .logo img {
   width: 200px;
@@ -66,3 +83,4 @@
 .foto {
   width: 180px;
 }
+

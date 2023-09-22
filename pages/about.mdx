@@ -1,9 +1,18 @@
+---
+title: Nosso Time
+---
 import Link from "next/link";
+import React from "react";
+import Image from "next/image";
+import styles from "../components/style.module.css";
+import img1 from "../assets/matheus.png";
+import img2 from "../assets/gustavo.png";
+import img3 from "../assets/jv.png";
+import img4 from "../assets/rodrigo.png";
 
 # Sobre Nossa Equipe
 
-Conheça a incrível equipe que está desenvolvendo o Frontend Day App, o qual ainda
-é apenas uma página em web, mas logo logo irá se tornar uma realidade o aplicativo:
+Conheça a incrível equipe que está desenvolvendo o Frontend Day App, o qual ainda é apenas uma página em web, mas logo irá se tornar realidade:
 
 ### <Link href="https://github.com/teusgomes" target="_blank">**Matheus**</Link>
 
@@ -20,6 +29,22 @@ Gustavo é um verdadeiro mestre da lógica e do desenvolvimento. Sua mente criat
 ### <Link href="https://github.com/jv-farias" target="_blank">**João Vitor (JV)**</Link>
 
 Foi o talentoso João Vitor, carinhosamente conhecido como JV, quem teve a visão inicial para o Frontend Day App. Ele trouxe para a equipe uma energia contagiante. JV liderou um pouco do caminho, e também incentivou cada membro da equipe a dar o melhor de si. Sua dedicação incansável e seu comprometimento com o sucesso coletivo foram fundamentais.
+
+ <div className={styles.containerCards}>
+  <div>
+  <Image className={styles.profilePicture} src={img1} alt="Minha Imagem" />
+  </div>
+  <div>
+  <Image className={styles.profilePicture} src={img2} alt="Minha Imagem" />
+  </div>
+  <div>
+  <Image className={styles.profilePicture} src={img3} alt="Minha Imagem" />
+  </div>
+  <div>
+  <Image className={styles.profilePicture} src={img4} alt="Minha Imagem" />
+  </div>
+  </div>
+
 
 ### Nossa Jornada
 
