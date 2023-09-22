@@ -1,4 +1,3 @@
-
 .titulo,
 .textFooter {
   font-weight: 700;
@@ -11,23 +10,59 @@
 }
 
 .frontend {
-    color: red;
+  color: #51cadf;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 5px;
+  background-color: #021233;
 }
 
 .day {
-    color: orange;
+  border-top: 1px solid #51cadf;
+  border-right: 1px solid #51cadf;
+  border-bottom: 1px solid #51cadf;
+  padding: 5px;
+  color: #ff8506;
+  background-color: #021233;
 }
 
 
 .counter {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 2px 6px;
-    margin: 12px 0 0;
-  }
-  
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 2px 6px;
+  margin: 12px 0 0;
+}
 
-  .logo img {
-    width: 200px;
-    border-radius: 20px;
-  }
+
+.logo img {
+  width: 200px;
+  border-radius: 20px;
+}
+
+.Introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-size: 18px;
+  margin: 15px;
+}
+
+.inicialtext {
+  margin-top: 22px;
+}
+
+.h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.foto {
+  width: 180px;
+}
