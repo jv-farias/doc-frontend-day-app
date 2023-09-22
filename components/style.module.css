@@ -1,0 +1,33 @@
+
+.titulo,
+.textFooter {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.textLinks {
+  font-weight: 500;
+
+}
+
+.frontend {
+    color: red;
+}
+
+.day {
+    color: orange;
+}
+
+
+.counter {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 2px 6px;
+    margin: 12px 0 0;
+  }
+  
+
+  .logo img {
+    width: 200px;
+    border-radius: 20px;
+  }
